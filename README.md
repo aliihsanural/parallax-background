@@ -2,6 +2,8 @@
 
 jQuery Parallax Background Plugin by Eren Süleymanoğlu
 
+[https://erensuleymanoglu.github.io/parallax-background/](https://erensuleymanoglu.github.io/parallax-background/)
+
 
 ### Installation
 
