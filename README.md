@@ -1,10 +1,11 @@
 # parallax-background.js
+
 jQuery Parallax Background Plugin by Eren Süleymanoğlu
 
 
 ### Installation
 
-Download and include `parallax-background.min.js`in your document after including jQuery.
+Download and include `parallax-background.min.js` in your document after including jQuery.
 
 ```html
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -23,6 +24,7 @@ To easily add a parallax effect to an element, add following lines between your 
     })(jQuery);
 </script>
 ```
+
 
 ### Options
 
@@ -96,3 +98,8 @@ Note that when specifying these options as html data-attributes, you should conv
         </tr>
     </tbody>
 </table>
+
+
+### License
+
+parallax-background.js is proudly sponsored by [VigitalArt](https://graphicriver.net/user/vigitalart) and released under [MIT License](https://github.com/erensuleymanoglu/parallax-background/blob/master/LICENSE.txt)
