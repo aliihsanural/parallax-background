@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+    <meta name="description" content="jQuery Parallax Background Plugin by Eren Süleymanoğlu">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>jQuery Parallax Background Plugin by Eren Süleymanoğlu</title>
@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/modernizr-2.8.3.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
 
@@ -28,8 +34,8 @@
                 <div class="col-md-12 white-content">
                     <h1>Simple Parallax Background <span>by Eren Süleymanoğlu</span></h1>
                     <p>parallax-background.js is a background scrolling effect which is designed for you to create beautiful and smooth parallax websites. Enjoy, it's so simple!</p>
-                    <a href="https://github.com/pixelcog/parallax.js/archive/v1.4.2.zip" class="btn btn-default download-link">Download parallax-background.js v.1</a>
-                    <a href="https://github.com/pixelcog/parallax.js/archive/v1.4.2.zip" class="btn btn-default download-link">View on GitHub</a>
+                    <a href="https://github.com/erensuleymanoglu/parallax-background/archive/master.zip" class="btn btn-default">Download parallax-background.js v.1</a>
+                    <a href="https://github.com/erensuleymanoglu/parallax-background" class="btn btn-default">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -158,7 +164,7 @@
 <footer>
     <div class="container">
         parallax-background.js &copy; <span id="year"></span> proudly sponsored by <a href="https://graphicriver.net/user/vigitalart" target="_blank">VigitalArt</a> and released under <a
-        href="https://github.com/pixelcog/parallax.js/blob/master/LICENSE">MIT license</a><br>
+            href="https://github.com/erensuleymanoglu/parallax-background/blob/master/LICENSE.txt">MIT license</a><br>
         all images taken from <a href="https://unsplash.com/" target="_blank">UNSPLASH</a><br><br><br>
         <a href="https://graphicriver.net/user/vigitalart" target="_blank"><img src="img/vigital-art.png" height="30"></a>
     </div>
@@ -169,13 +175,13 @@
 <script src="js/parallax-background.js"></script>
 
 <script>
-    (function ($) {
-        $('.parallax').parallaxBackground();
+	(function ($) {
+		$('.parallax').parallaxBackground();
 
-        var year = new Date().getFullYear();
-        $('#year').append(year);
+		var year = new Date().getFullYear();
+		$('#year').append(year);
 
-    })(jQuery);
+	})(jQuery);
 </script>
 </body>
 </html>
