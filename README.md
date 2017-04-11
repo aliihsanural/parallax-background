@@ -71,8 +71,8 @@ Note that when specifying these options as html data-attributes, you should conv
         </tr>
         <tr>
             <td>parallaxBgSize</td>
+            <td>string</td>
             <td>cover</td>
-            <td>center center</td>
             <td>
                 You can provide css background-size property. The parallax image will be sized as you provided.<br><br>
                 Available options: auto, contain, cover
